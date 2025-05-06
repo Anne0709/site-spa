@@ -16,7 +16,11 @@ function Animal() {
 			<article>
 				<img id="heart" src="public/amour-du-coeur.png" alt="coeur" />
 				<img src={animal} alt="photos de chiens" />
-				<p>GUGU</p>
+				<p>
+					GUGU
+					<br />
+					La SPA, refuge de Morée, Loire-Atlantique
+				</p>
 			</article>
 			<button type="button">
 				<Link to="/Newletter">Newsletter </Link>
