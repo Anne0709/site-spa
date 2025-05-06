@@ -1,0 +1,31 @@
+header {
+	height: 15vh;
+	display: flex;
+	color: black;
+	background-color: var(--primary-color);
+}
+
+img {
+	margin: 15px;
+	width: 80px;
+	height: 80px;
+}
+
+.navbar img {
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 100%;
+	gap: 40px;
+	font-size: 1.2rem;
+}
+
+a {
+	color: black;
+}

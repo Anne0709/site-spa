@@ -1,0 +1,48 @@
+.alerte {
+	background-color: var(--primary-color);
+	height: 85vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 0.1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.alerte img {
+	width: 80%;
+	height: 80%;
+	grid-area: 1 / 1 / 1 / 1;
+	margin: 40px;
+	justify-self: center;
+}
+
+.text {
+	grid-area: 2 / 2 / 1 / 2;
+	margin: 20px 40px;
+	font-size: 18px;
+}
+
+.text p {
+	color: black;
+	text-align: left;
+}
+
+.alerte h1 {
+	margin: 40px 20px 40px 0px;
+}
+.alerte button {
+	border: none;
+	width: 150px;
+	height: 60px;
+	grid-area: 3 / 2 / 3 / 2;
+	justify-self: end;
+	margin: 60px;
+	background-color: var(--second-color);
+	border-radius: 50px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.alerte a {
+	color: white;
+	text-decoration: none;
+}

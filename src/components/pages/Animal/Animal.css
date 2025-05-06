@@ -1,0 +1,50 @@
+.animals {
+	height: 85vh;
+	background-color: var(--primary-color);
+	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr) 0.5fr;
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.animals article {
+	grid-area: 2 / 3 / 4 / 6;
+	/*justify-self: center;*/
+	height: 380px;
+	width: 100%;
+	object-fit: contain;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 0 0 50px 50px;
+}
+.animals p {
+	color: black;
+	text-align: center;
+}
+
+#heart {
+	height: 30px;
+	width: 30px;
+}
+
+.animals button {
+	grid-area: 3 / 8 / 4 / 7;
+	align-self: end;
+	width: 180px;
+	height: 60px;
+	background-color: var(--second-color);
+	border-radius: 60px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border: none;
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}
+.animals img {
+	margin: 0;
+	object-fit: contain;
+	height: 300px;
+	width: 100%;
+}

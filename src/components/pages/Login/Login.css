@@ -1,0 +1,41 @@
+.login {
+	background-color: var(--third-color);
+	height: 85vh;
+	text-align: center;
+}
+
+.login h1 {
+	padding: 60px;
+	margin: 0px;
+}
+.login label {
+	display: block;
+	justify-self: center;
+	margin: 30px;
+	font: 1rem "Fira Sans", sans-serif;
+}
+
+.login input,
+label {
+	margin: 0.4rem 0;
+	text-align: left;
+}
+
+.login input {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 400px;
+	height: 60px;
+	border-radius: 10px;
+}
+
+.connexion {
+	margin: 50px;
+	border: none;
+	width: 160px;
+	height: 60px;
+	background-color: var(--quator-color);
+	border-radius: 50px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	color: white;
+}

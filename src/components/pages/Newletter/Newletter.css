@@ -1,0 +1,55 @@
+.newletter {
+	background-color: var(--third-color);
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section label {
+	display: inline-block;
+	justify-self: center;
+	margin: 30px;
+	font: 1rem "Fira Sans", sans-serif;
+}
+
+.section input,
+label {
+	margin: 0.4rem 0;
+	text-align: left;
+}
+
+.newletter h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+label {
+	color: white;
+}
+
+.liste input {
+	height: 40px;
+	border-radius: 10px;
+}
+
+/*Button*/
+.button-inscription {
+	justify-self: center;
+}
+
+.inscription {
+	border: none;
+	width: 160px;
+	height: 60px;
+	margin: 20px;
+	background-color: var(--quator-color);
+	border-radius: 50px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inscription a {
+	color: white;
+	text-decoration: none;
+}

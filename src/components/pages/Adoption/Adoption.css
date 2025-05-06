@@ -1,0 +1,49 @@
+.adoption {
+	display: flex;
+	height: 85vh;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+}
+
+.adoption h1 {
+	color: var(--second-color);
+	font-size: 35px;
+	height: 30%;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+.adoption p {
+	font-size: 18px;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.adoption b {
+	margin: 30px;
+}
+
+.adoption .button {
+	justify-self: end;
+}
+
+.adoption button {
+	border: none;
+	width: 150px;
+	height: 60px;
+	margin: 60px;
+	background-color: var(--second-color);
+	border-radius: 50px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.adoption a {
+	color: white;
+	text-decoration: none;
+}
