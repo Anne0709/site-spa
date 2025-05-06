@@ -9,8 +9,7 @@
 
 .animals article {
 	grid-area: 2 / 3 / 4 / 6;
-	/*justify-self: center;*/
-	height: 380px;
+	height: 400px;
 	width: 100%;
 	object-fit: contain;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -22,6 +21,7 @@
 }
 
 #heart {
+	padding: 5px;
 	height: 30px;
 	width: 30px;
 }
